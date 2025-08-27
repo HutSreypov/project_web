@@ -950,7 +950,7 @@ select {
 
     .form {
         width: 100%;
-        margin-left: 10px;
+        margin-left: 12px;
     }
 
     .footer {
@@ -1046,7 +1046,7 @@ select {
     td,
     th {
         margin-left: 0;
-        padding: 6px;
+        padding: 8px;
         font-size: 12px;
     }
     .hot {
