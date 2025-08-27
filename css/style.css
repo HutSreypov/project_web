@@ -573,7 +573,7 @@ textarea:hover {
 /* LOCATION */
 .loc {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -873,10 +873,6 @@ select {
         text-align: center;
     }
 
-    table {
-        width: 50%;
-    }
-
     .food {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -888,7 +884,7 @@ select {
 
     .food-1 .img-2 {
         width: 100%;
-        height: 22.5vh;
+        height: 18vh;
     }
 
     .food-1 {
@@ -952,7 +948,7 @@ select {
 
     .form {
         width: 100%;
-        margin-left: 40px;
+        margin-left: 0px;
     }
 
     .footer {
@@ -1042,13 +1038,14 @@ select {
     }
 
     table {
-        width: 50%;
+        width: 40%;
         border-radius: 10px;
     }
 
     td,
     th {
-        padding: 10px 12.5px;
+        margin-left: 0;
+        padding: 5px;
         font-size: 12px;
     }
 
@@ -1093,5 +1090,8 @@ select {
         margin-top: 10px;
         padding: 4px;
         font-size: 14px;
+    }
+    .loc{
+        margin: 20px;
     }
 }
